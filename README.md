@@ -30,7 +30,7 @@ Fecha o aplicativo
 Esconde a janela do aplicativo e mantém ativo na barra de tarefas
 ```javascript
    
-   ipc.close();
+   ipc.hide();
    
 ```
 
