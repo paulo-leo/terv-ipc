@@ -1,3 +1,17 @@
+# Terv-ipc
+
+Terv-ipc é uma ferramenta especialmente criada para o projeto Terv.js. Este pacote facilita a comunicação via IPC diretamente de sua aplicação ReactJS ou qualquer outra interface de usuário. O IPC é um conceito amplamente difundido em projetos com Electron, permitindo o acesso à lógica do aplicativo NodeJS em execução com Electron para uma integração mais sólida com o sistema operacional. 
+
+
+## Para instalar o `Terv-ipc`, use o seguinte comando:
+
+```bash
+npm i terv-ipc
+
+```
+
+```javascript
+
 // Fecha o aplicativo
 ipc.close();
 
@@ -20,3 +34,4 @@ ipc.controller('MinhaClasse');
 ipc.method('meuMétodo', { /* objeto de solicitação opcional */ });
 
 // OBS: os métodos route e method são assíncronos, ou seja, eles retornam uma promessa com a resposta do processamento.
+```
